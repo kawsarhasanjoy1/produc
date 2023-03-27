@@ -1,8 +1,11 @@
 import React from 'react';
 import './Header.css'
 import logo from '../../images/Logo.svg'
+
+
 const Header = () => {
     return (
+      
         <nav className='Header'>
             <img src={logo} alt="" />
            <div style={{gap :'40px'}}>
@@ -10,9 +13,11 @@ const Header = () => {
             <a href="#">Order Review</a>
             <a href="#">Manage Inventory</a>
             <a href="#">Login</a>
-           </div>
-
+           </div>  
         </nav>
+        
+             
+        
     );
 };
 

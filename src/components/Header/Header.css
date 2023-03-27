@@ -5,12 +5,14 @@
     align-items: center;
     height: 80px;
     padding-left: 40px;
+    margin-left: 40px;
 }
 
 .Header div a {
     text-decoration: none;
     color: white;
     margin-right: 40px;
+    
 }
 .Header div a:hover {
     color: gold;
