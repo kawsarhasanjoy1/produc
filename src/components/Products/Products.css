@@ -40,4 +40,5 @@ margin-top: 2px;
 }
 .button-hover :hover {
     background-color: rgb(236, 185, 168);
+    text-transform: uppercase;
 }
