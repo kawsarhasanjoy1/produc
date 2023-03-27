@@ -1,9 +1,11 @@
 import React from 'react';
 import './Products.css'
-import add from '../../images/cart-plus-solid.svg'
 const Products = (props) => {
     
-   console.log(props.single)
+   const HandaleAddToCard = props.HandaleAddToCard;
+   
+    
+
     return (
         <div className='product-container'>
             <img src={props.single.img} alt="" />
@@ -14,7 +16,8 @@ const Products = (props) => {
             <p>Rating : {props.single.ratings} Star</p>     
         </div>
         <div className='button-hover'> 
-            <button className='button'>Add to Card</button>
+            <button onClick={() => HandaleAddToCard(props.single)}
+             className='button'>Add to Card</button>
        </div>
     </div>
     );
