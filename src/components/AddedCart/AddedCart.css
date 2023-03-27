@@ -1,0 +1,12 @@
+.Product-summary{
+    background-color: #FFE0B3;
+    padding-left: 20px;
+    padding-right: 45px;
+    margin-top: 0;
+    padding-top: 28px;
+    margin-left: 0;
+    padding-bottom: 40px;
+    border-radius: 4px;
+    position: sticky;
+    top: 8px;
+}
