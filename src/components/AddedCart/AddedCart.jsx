@@ -3,18 +3,20 @@ import React from 'react';
 import './AddedCart.css'
 
 const AddedCart = (props) => {
+    
     const getsingle = props.cart;
     
     let Total = 0;
     let TotalShipping = 0;
     for (const single of getsingle) {
-        console.log(single)
          Total = Total + single.price;
          TotalShipping = TotalShipping + single.shipping
 
     }
     const tax = Total*7/100;
     const grandTotal = Total+TotalShipping+tax;
+
+
     return (
         <div className='Product-summary'>
             <h3>Order Product </h3>
