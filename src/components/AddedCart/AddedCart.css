@@ -9,4 +9,8 @@
     border-radius: 4px;
     position: sticky;
     top: 8px;
+    
+}
+.Product-summary p {
+    font-size: 17px;
 }
